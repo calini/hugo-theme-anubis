@@ -1,15 +1,15 @@
 # Anubis Theme for Hugo [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ## ⚠️ Theme is no longer maintained
-Thank you all.  
-More info: https://mitrich.me/en/posts/anubis-closed/  
+
+Theme is no longer maintained by the original author; More info: https://web.archive.org/web/20240225081114/https://mitrich.me/en/posts/anubis-closed/
 
 ---
 
 Anubis is a simple minimalist theme for [Hugo blog engine](https://gohugo.io/).  
-[Demo](https://anubis.mitrich.me)
+[Demo](https://ilie.io)
 
-![Anubis Screenshot](https://raw.githubusercontent.com/mitrichius/hugo-theme-anubis/master/images/screenshot.png)
+![Anubis Screenshot](https://raw.githubusercontent.com/calini/hugo-theme-anubis/master/images/screenshot.png)
 
 ## Features
 
@@ -52,14 +52,14 @@ hugo mod init github.com/<your_user>/<your_project>
 
 Add the following to your `config.toml` or `config.yaml`
 ```toml
-theme =  ["github.com/Mitrichius/hugo-theme-anubis"]
+theme =  ["github.com/calini/hugo-theme-anubis"]
 ```
 
 ### As Git Submodule
 
 Inside the folder of your Hugo site run:
 
-    $ git submodule add https://github.com/mitrichius/hugo-theme-anubis.git themes/anubis
+    $ git submodule add https://github.com/calini/hugo-theme-anubis.git themes/anubis
 
 For more information read the official [setup guide](https://gohugo.io/overview/installing/) of Hugo.
 
@@ -254,7 +254,7 @@ If you want font awesome icons, download "Font Awesome For Desktop" and open svg
 Only works for production environment.
 
 ### Multilingual mode 
-Check config/example usage in [exampleSiteMultilingual](https://github.com/Mitrichius/hugo-theme-anubis/tree/master/exampleSiteMultilingual) directory and documentation on [Hugo site](https://gohugo.io/content-management/multilingual/).
+Check config/example usage in [exampleSiteMultilingual](https://github.com/calini/hugo-theme-anubis/tree/master/exampleSiteMultilingual) directory and documentation on [Hugo site](https://gohugo.io/content-management/multilingual/).
 
 ### RSS 
 RSS is available by site url + /index.xml. Also available for specific language, section, taxonomy.  
@@ -292,13 +292,14 @@ Example: `{{< video src="/media/movie.mp4" type="video/mp4" preload="auto" capti
 
 ## Contributing
 
-If you find a bug or have an idea for a feature, feel free to write an [issue](https://github.com/mitrichius/hugo-theme-anubis/issues) or make a PR.
+If you find a bug or have an idea for a feature, feel free to write an [issue](https://github.com/calini/hugo-theme-anubis/issues) or make a PR.
 
 ## TODO
-See [issues](https://github.com/mitrichius/hugo-theme-anubis/issues).
+See [issues](https://github.com/calini/hugo-theme-anubis/issues).
 
 ## License
 MIT
 
-© Dmitry Kolosov
-2020
+## Author
+Original author - © Dmitry Kolosov, 2020
+Fork - © Călin Ilie, 2024
